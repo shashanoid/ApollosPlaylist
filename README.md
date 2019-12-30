@@ -1,14 +1,8 @@
 # Apollos Playlist ::
 
-## Prod deploy guidelines:
+## Screenshots:
 
-- Clone the repo into server inside /myproject folder
-- copy deploy.sh script from apollos-playlist to the outer directory
-- run `./deploy.sh`
-
-### Data Endpoints
-
-`/top_tracks?token=<token>` :: Returns user's top tracks
+![Screenshot](https://raw.githubusercontent.com/shashanoid/ApollosPlaylist/master/Screenshots/new.png)
 
 ## Backend
 
@@ -109,3 +103,13 @@ Dispatching actions will update the state, and in turn update the props the comp
 ### We are using Prettier for Javascript formatting
 
 The VSCode extension could be downloaded here: https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode
+
+## Prod deploy guidelines:
+
+- Clone the repo into server inside /myproject folder
+- copy deploy.sh script from apollos-playlist to the outer directory
+- run `./deploy.sh`
+
+### Data Endpoints
+
+`/top_tracks?token=<token>` :: Returns user's top tracks
