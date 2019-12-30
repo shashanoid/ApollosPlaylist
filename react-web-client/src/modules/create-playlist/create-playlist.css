@@ -1,0 +1,8 @@
+.create-playlist-container {
+  height: 95%;
+  overflow-y: scroll;
+}
+
+#create-playlist-question {
+  color: white
+}

@@ -1,0 +1,15 @@
+.error-view-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.error-view-item {
+  color: white;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}

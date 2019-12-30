@@ -1,0 +1,30 @@
+#main-sidebar {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  background-color: #111419;
+  padding: 10px;
+  z-index: 1000;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: 0.25s;
+  overflow-x: hidden;
+}
+
+#main-sidebar-overlay {
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 100vw;
+  height: 100vh;
+  z-index: 990;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#main-sidebar-ghost {
+  height: 100%;
+  padding: 10px 0px;
+  transition: 0.25s;
+}

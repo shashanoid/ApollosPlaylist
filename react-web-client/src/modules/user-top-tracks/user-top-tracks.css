@@ -1,0 +1,74 @@
+#user-top-tracks-container {
+  overflow-y: scroll;
+}
+
+.track-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.track-item {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 20px;
+  justify-content: space-between;
+}
+
+.track-info-container {
+  display: flex;
+}
+
+#track-image {
+  height: 4rem;
+  border-radius: 8px;
+  position: relative;
+  background-color: gray;
+  opacity: 0.5;
+}
+
+.track-info {
+  height: 4rem;
+  display: flex;
+  flex-direction: column;
+  margin-top: 6px;
+  margin-left: 16px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.track-info:hover{
+  background-color: #202121;
+}
+
+#track-title {
+  color: white;
+}
+
+#track-artist {
+  color: gray;
+}
+
+#mixer-icon {
+  margin-top: 5px;
+  height: 3rem;
+}
+
+#player-container #play-pause {
+  cursor: pointer;
+  text-indent: -999999px;
+  height: 4rem;
+  border-radius: 8px;
+  background-image: url('./subcomponents/images/play.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 16px;
+  position: relative;
+  margin-top: -100%;
+}
+.play {
+  background-image: url('./subcomponents/images/play.png');
+}
+.pause {
+  background-image: url('./subcomponents/images/pause.png') !important;
+}
