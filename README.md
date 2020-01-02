@@ -1,6 +1,7 @@
 # Apollos Playlist ::
 
 Tired of auto-generated playlist? Apollo's playlist puts the control back in your hands. Develop customized playlists based on your mood or event.
+
 https://apollosplaylist.com/
 https://playlistninja.app/
 
