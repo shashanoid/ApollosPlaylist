@@ -1,8 +1,15 @@
 # Apollos Playlist ::
 
+Tired of auto-generated playlist? Apollo's playlist puts the control back in your hands. Develop customized playlists based on your mood or event.
+https://apollosplaylist.com/
+https://playlistninja.app/
+
 ## Screenshots:
 
 ![Screenshot](https://raw.githubusercontent.com/shashanoid/ApollosPlaylist/master/Screenshots/new.png)
+![Screenshot](https://raw.githubusercontent.com/shashanoid/ApollosPlaylist/master/Screenshots/ninja.png)
+
+# Deploy Guidelines :
 
 ## Backend
 
@@ -110,6 +117,3 @@ The VSCode extension could be downloaded here: https://marketplace.visualstudio.
 - copy deploy.sh script from apollos-playlist to the outer directory
 - run `./deploy.sh`
 
-### Data Endpoints
-
-`/top_tracks?token=<token>` :: Returns user's top tracks
